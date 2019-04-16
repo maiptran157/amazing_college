@@ -1,0 +1,12 @@
+[Tue Apr 09 23:04:39.017097 2019] [mpm_event:notice] [pid 450:tid 140129021282176] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Apr 09 23:04:39.017180 2019] [core:notice] [pid 450:tid 140129021282176] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 10 21:05:29.828319 2019] [mpm_event:notice] [pid 147:tid 140695305975680] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Apr 10 21:05:29.828400 2019] [core:notice] [pid 147:tid 140695305975680] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 10 21:05:30.137292 2019] [proxy:error] [pid 157:tid 140695134267136] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Wed Apr 10 21:05:30.138635 2019] [proxy_fcgi:error] [pid 157:tid 140695134267136] [client 172.17.0.1:58478] AH01079: failed to make connection to backend: httpd-UDS
+[Wed Apr 10 21:05:30.423103 2019] [proxy:error] [pid 157:tid 140695117481728] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Wed Apr 10 21:05:30.423121 2019] [proxy_fcgi:error] [pid 157:tid 140695117481728] [client 172.17.0.1:58482] AH01079: failed to make connection to backend: httpd-UDS, referer: http://amazing-college.local/
+[Thu Apr 11 18:30:32.610938 2019] [mpm_event:notice] [pid 100:tid 140665558534016] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Thu Apr 11 18:30:32.611019 2019] [core:notice] [pid 100:tid 140665558534016] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 16 21:10:57.231294 2019] [mpm_event:notice] [pid 201:tid 140700703049600] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Apr 16 21:10:57.246841 2019] [core:notice] [pid 201:tid 140700703049600] AH00094: Command line: '/usr/sbin/apache2'
