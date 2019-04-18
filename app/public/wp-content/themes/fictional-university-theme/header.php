@@ -13,13 +13,18 @@
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
             <div class="site-header__menu group">
                 <nav class="main-navigation">
-                <ul>
-                    <li><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
-                    <li><a href="<?php echo site_url('/programs'); ?>">Programs</a></li>
-                    <li><a href="<?php echo site_url('/events'); ?>">Events</a></li>
-                    <li><a href="<?php echo site_url('/campuses'); ?>">Campuses</a></li>
-                    <li><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
-                </ul>
+                    <ul>
+                        <li <?php if(is_page('about-us') or wp_get_post_parent_id(0) == 11) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
+                        <li><a href="<?php echo site_url('/programs'); ?>">Programs</a></li>
+                        <li><a href="<?php echo site_url('/events'); ?>">Events</a></li>
+                        <li><a href="<?php echo site_url('/campuses'); ?>">Campuses</a></li>
+                        <li><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
+                    </ul>
+                    <!-- <?php 
+                    wp_nav_menu(array(
+                        'theme_location' => 'headerMenuLocation'
+                    ));
+                    ?> -->
                 </nav>
                 <div class="site-header__util">
                 <a href="<?php echo site_url('/log-in'); ?>" class="btn btn--small btn--orange float-left push-right">Login</a>
