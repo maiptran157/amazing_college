@@ -10,3 +10,6 @@
 [24-Apr-2019 17:58:41] NOTICE: ready to handle connections
 [25-Apr-2019 17:52:27] NOTICE: fpm is running, pid 354
 [25-Apr-2019 17:52:27] NOTICE: ready to handle connections
+[25-Apr-2019 21:49:35] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[25-Apr-2019 22:00:14] NOTICE: fpm is running, pid 217
+[25-Apr-2019 22:00:14] NOTICE: ready to handle connections
