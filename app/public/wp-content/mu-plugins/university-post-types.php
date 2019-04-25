@@ -1,6 +1,10 @@
 <?php
 function university_post_types() {
     register_post_type('event',array(
+        'rewrite' => array(
+            'slug' => 'events'
+        ),
+        'has_archive' => true,
         'public' => true, //visible to the public
         'labels' => array(
             'name' => 'Events',
