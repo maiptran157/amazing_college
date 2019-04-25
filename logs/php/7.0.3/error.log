@@ -42,3 +42,45 @@ Stack trace:
 [10-Apr-2019 22:58:36 UTC] PHP  14. do_action() /app/public/wp-includes/script-loader.php:2463
 [10-Apr-2019 22:58:36 UTC] PHP  15. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
 [10-Apr-2019 22:58:36 UTC] PHP  16. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Apr-2019 23:29:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archiv_link() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 49
+[25-Apr-2019 23:30:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archiv_link() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 49
+[25-Apr-2019 23:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archiv_link() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 49
+[25-Apr-2019 23:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archiv_link() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 49
+[25-Apr-2019 23:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archiv_link() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 49
+[25-Apr-2019 23:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_type_archiv_link() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 49
