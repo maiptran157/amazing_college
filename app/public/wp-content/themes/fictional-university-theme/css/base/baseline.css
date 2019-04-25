@@ -1,3 +1,5 @@
+@import "variables";
+
 @define-mixin atSmall {
   @media (min-width: 530px) {
     @mixin-content;
@@ -17,7 +19,6 @@
 }
 
 body {
-  color: #333;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   position: relative;
