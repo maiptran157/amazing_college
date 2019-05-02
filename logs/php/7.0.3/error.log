@@ -84,3 +84,32 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 49
+[02-May-2019 20:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_month() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:30
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 30
+[02-May-2019 20:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /app/public/wp-content/themes/fictional-university-theme/front-page.php:33
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 33
+[02-May-2019 20:57:01 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/07/2019) at position 0 (2): Unexpected character in /app/public/wp-content/themes/fictional-university-theme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/front-page.php(32): DateTime->__construct('20/07/2019')
+#1 /app/public/wp-includes/template-loader.php(77): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 32
+[02-May-2019 21:17:44 UTC] PHP Fatal error:  Uncaught Error: Class 'date' not found in /app/public/wp-content/themes/fictional-university-theme/front-page.php:20
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 20
