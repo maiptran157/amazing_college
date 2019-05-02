@@ -106,3 +106,10 @@ Stack trace:
 #3 /app/public/index.php(17): require('/app/public/wp-...')
 #4 {main}
   thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 32
+[02-May-2019 21:17:44 UTC] PHP Fatal error:  Uncaught Error: Class 'date' not found in /app/public/wp-content/themes/fictional-university-theme/front-page.php:20
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 20
