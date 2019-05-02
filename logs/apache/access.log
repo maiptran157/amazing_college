@@ -3511,3 +3511,4 @@
 172.17.0.1 - - [02/May/2019:21:18:05 +0000] "GET /favicon.ico HTTP/1.0" 200 191 "http://amazing-college.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
 172.17.0.1 - - [02/May/2019:21:18:33 +0000] "GET / HTTP/1.0" 200 5875 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
 172.17.0.1 - - [02/May/2019:21:18:33 +0000] "GET /favicon.ico HTTP/1.0" 200 191 "http://amazing-college.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+172.17.0.1 - - [02/May/2019:21:18:52 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.0" 200 553 "http://amazing-college.local/wp-admin/post.php?post=42&action=edit" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
