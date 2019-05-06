@@ -120,3 +120,9 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 18
+[06-May-2019 17:47:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 28
+[06-May-2019 17:47:27 UTC] PHP Stack trace:
+[06-May-2019 17:47:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-May-2019 17:47:27 UTC] PHP   2. require() /app/public/index.php:17
+[06-May-2019 17:47:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-May-2019 17:47:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:77
