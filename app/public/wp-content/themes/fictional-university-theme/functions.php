@@ -28,9 +28,19 @@ function university_adjust_queries($query) {
     //make sure post type is 'event'
     //make sure the query being manipulated is the main query, so we don't accidentally manipulating any custom query
     if (!is_admin() AND is_post_type_archive('event') AND $query->is_main_query()) {
+        $today = date('Ymd');
         $query->set('meta_key','event_date');
         $query->set('orderby','met_value_num');
-
+        $query->set('order','ASC');
+        $query->set('meta_query', array(
+                    array(
+                    'key' => 'event_date',
+                    'compare' => '>=',
+                    'value' => $today,
+                    'type' => 'numeric'
+                    )    
+                )
+            );
     }
 }
 
