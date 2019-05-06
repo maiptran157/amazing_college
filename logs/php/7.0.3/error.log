@@ -113,3 +113,10 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 20
+[06-May-2019 16:49:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_qeury_var() in /app/public/wp-content/themes/fictional-university-theme/page-past-events.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 18
